@@ -1,7 +1,3 @@
-# nginx-demo 
-
-### nginx的学习笔记
-
 ### 参考
 
 http://www.nginx.cn/doc/
@@ -53,57 +49,15 @@ brew services start nginx
 
 等可以继续输入命令的时候，打开：<a href='http://localhost:8080/'>http://localhost:8080/</a> 有正常显示，说明就ok了。
 
----
+【3】其他平台：
 
-### 2、目录
+参考：http://www.nginx.cn/doc/
 
-1、nginx安装文件目录
-
-```
-/usr/local/Cellar/nginx
-```
-
-2、nginx配置文件目录
-
-```
-/usr/local/etc/nginx
-```
-
-3、config文件目录
-
-```
-/usr/local/etc/nginx/nginx.conf
-```
-
-4、系统hosts位置
-
-```
-/private/etc/hosts
-```
-
-5、查看目录的方法：
-
-示例：打开nginx安装目录：
-
-命令行输入：``/usr/local/Cellar/nginx``，再输入 ``open .``，即可打开finder。
-
----
-
-###3、nginx常用命令
-
-```
-nginx  #启动nginx
-nginx -s quit  #快速停止nginx
-nginx -V #查看版本，以及配置文件地址
-nginx -v #查看版本
-nginx -s reload|reopen|stop|quit   #重新加载配置|重启|快速停止|安全关闭nginx
-nginx -h #帮助
-```
-
----
-
-###4、卸载nginx
-
-```
-brew uninstall nginx
-```
+<ul>
+<li><a href="http://www.nginx.cn/doc/setup/nginx-windows.html">nginx在windows上安装</a></li>
+<li><a href="http://www.nginx.cn/doc/setup/nginx-freebsd.html">nginx在freebsd上安装</a></li>
+<li><a href="http://www.nginx.cn/doc/setup/nginx-ubuntu.html">nginx在ubuntu上安装</a></li>
+<li><a href="http://www.nginx.cn/doc/setup/nginx-fedora.html">nginx在fedora上安装</a></li>
+<li><a href="http://blog.s135.com/nginx_php_v5/" target="_blank">nginx在centos上安装</a></li>
+<li><a href="http://www.nginx.cn/231.html" target="_blank" title="php-fpm安装配置">nginx php-fpm安装配置</a></li>
+</ul>
