@@ -8,104 +8,22 @@ http://www.nginx.cn/doc/
 
 程序员技术交流、面试、职场、生活、游戏、相亲，综合讨论QQ群：387017550，群内经常发红包，欢迎加入
 
----
+### 0、命令行工具
 
-### 1、安装
+由于需要涉及到比较多的命令行输入，所以建议搞一个专业的命令行工具，mac自带的终端功能并不强大。
 
-【1】ububtu平台、centos平台，参考：
-
-https://wizardforcel.gitbooks.io/nginx-doc/content/Text/1.3_install.html
-
-【2】mac平台：
-
-参考：https://www.jianshu.com/p/026d67cc6cb1
-
-1、先执行，安装homebrew：
-
-```
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-
-说明：
-
-* 第一行命令执行完，需要按一次 return（回车键），和输一次密码；
-* 过程比较久，因为需要下载一些东西；
-
-2、再执行安装nginx：
-
-```
-brew install nginx
-```
-
-3、执行：
-
-```
-sudo xcode-select --install
-```
-
-不过他可能会提示：xcode-select: error: command line tools are already installed, use "Software Update" to install updates
-
-那么就不管了吧
-
-4、启动nginx服务
-
-```
-brew services start nginx
-```
-
-等可以继续输入命令的时候，打开：<a href='http://localhost:8080/'>http://localhost:8080/</a> 有正常显示，说明就ok了。
+<b>iTerm2</b>，参考：https://www.jianshu.com/p/33f2048b8862
 
 ---
 
-### 2、目录
+### 01、安装
 
-1、nginx安装文件目录
+<a href='https://github.com/qq20004604/nginx-demo/blob/master/01、安装nginx.md'>01、安装nginx</a>
 
-```
-/usr/local/Cellar/nginx
-```
+### 02~04、目录和命令
 
-2、nginx配置文件目录
+<a href='https://github.com/qq20004604/nginx-demo/blob/master/02~04、目录和命令.md'>02~04、目录和命令</a>
 
-```
-/usr/local/etc/nginx
-```
+### 05、配置nginx的配置文件
 
-3、config文件目录
-
-```
-/usr/local/etc/nginx/nginx.conf
-```
-
-4、系统hosts位置
-
-```
-/private/etc/hosts
-```
-
-5、查看目录的方法：
-
-示例：打开nginx安装目录：
-
-命令行输入：``/usr/local/Cellar/nginx``，再输入 ``open .``，即可打开finder。
-
----
-
-###3、nginx常用命令
-
-```
-nginx  #启动nginx
-nginx -s quit  #快速停止nginx
-nginx -V #查看版本，以及配置文件地址
-nginx -v #查看版本
-nginx -s reload|reopen|stop|quit   #重新加载配置|重启|快速停止|安全关闭nginx
-nginx -h #帮助
-```
-
----
-
-###4、卸载nginx
-
-```
-brew uninstall nginx
-```
+<a href='https://github.com/qq20004604/nginx-demo/blob/master/05、配置nginx的配置文件.md'>05、配置nginx的配置文件</a>
