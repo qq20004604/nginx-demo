@@ -16,14 +16,10 @@ http://www.nginx.cn/doc/
 
 ---
 
-### 01、安装
+### 目录
 
 <a href='https://github.com/qq20004604/nginx-demo/blob/master/01、安装nginx.md'>01、安装nginx</a>
 
-### 02~04、目录和命令
-
 <a href='https://github.com/qq20004604/nginx-demo/blob/master/02~04、目录和命令.md'>02~04、目录和命令</a>
-
-### 05、配置nginx的配置文件
 
 <a href='https://github.com/qq20004604/nginx-demo/blob/master/05、配置nginx的配置文件.md'>05、配置nginx的配置文件</a>

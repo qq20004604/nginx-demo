@@ -6,7 +6,7 @@ http://www.nginx.cn/doc/
 
 ---
 
-### 1、安装
+### 01、安装
 
 【1】ububtu平台、centos平台，参考：
 
