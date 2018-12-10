@@ -63,3 +63,16 @@ brew services start nginx
 <li><a href="http://blog.s135.com/nginx_php_v5/" target="_blank">nginx在centos上安装</a></li>
 <li><a href="http://www.nginx.cn/231.html" target="_blank" title="php-fpm安装配置">nginx php-fpm安装配置</a></li>
 </ul>
+
+【4】windows平台：
+
+不支持，就是这样，装个虚拟机吧~
+
+支持的操作系统：
+
+```$xslt
+FreeBSD 3.x, 4.x, 5.x, 6.x i386; FreeBSD 5.x, 6.x amd64;
+Linux 2.2, 2.4, 2.6 i386; Linux 2.6 amd64;
+Solaris 8 i386; Solaris 9 i386 and sun4u; Solaris 10 i386;
+MacOS X (10.4) PPC;
+```
