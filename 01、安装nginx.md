@@ -12,6 +12,22 @@ http://www.nginx.cn/doc/
 
 https://wizardforcel.gitbooks.io/nginx-doc/content/Text/1.3_install.html
 
+在安装【PCRE库】或者其他时，会出现找不到文件的情况，打开 ``ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/``，然后找符合你需要的版本，更改版本号即可。
+
+如果提示没有权限``Permission denied`，则前面加 sudo 即可。
+
+例如：【PCRE库】版本号是8.39，【zlib】版本号是：1.2.11，
+
+另外，安装nginx的时候，执行``./configure``命令时，记得改后面的其他文件的路径（原因是版本号不同，文件名则不同）。
+
+**错误说明：**
+
+* 也有可能你通过上面那个链接，怎么也安装不了，那么换一个参考链接吧：
+
+http://www.runoob.com/linux/nginx-install-setup.html
+
+Centos平台，可以直接运行本项目里的 ``install_nginx.sh`` 来自动安装
+
 【2】mac平台：
 
 参考：https://www.jianshu.com/p/026d67cc6cb1
@@ -76,3 +92,11 @@ Linux 2.2, 2.4, 2.6 i386; Linux 2.6 amd64;
 Solaris 8 i386; Solaris 9 i386 and sun4u; Solaris 10 i386;
 MacOS X (10.4) PPC;
 ```
+
+【5】问题解决：
+
+1、安装了nginx，也可以通过 curl 127.0.0.1 本机打开页面，但是其他机子访问不了，怎么解决？
+
+解决办法：例如在CentOS 7 需要通过 firewalld 来打开 http 80 端口，才能访问。
+
+参考本项目中的 [centos7打开80端口.sh] 文件
