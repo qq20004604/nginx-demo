@@ -1,6 +1,6 @@
 #!/bin/sh
 # centos 安装 nginx
-# 参考链接http://www.runoob.com/linux/nginx-install-setup.html
+# 参考链接 http://www.runoob.com/linux/nginx-install-setup.html
 # 最终输出结果应该是 nginx version: nginx/1.6.2
 # 运行错误提示：需要使用vi命令打开sh文件，然后使用 :set ff=unix 将脚本转为unix格式，而非dos格式。再:wq保存后运行
 yum -y install make zlib zlib-devel gcc-c++ libtool openssl openssl-devel
