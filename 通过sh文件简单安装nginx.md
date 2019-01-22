@@ -20,7 +20,7 @@ https://github.com/qq20004604/notes/tree/master/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%9
 
 怎么上传不用我教吧？windows可以参考上面的文章，下载 FileZilla Client 软件将文件上传到 linux 服务器，或者通过 wget 下载 sh文件 到linux服务器上。
 
-如果从 github 下载的话，可以使用我的这个文件，并执行
+如果从 github 下载的话，可以使用我的 <a href="https://github.com/qq20004604/nginx-demo/blob/master/install_nginx.sh">这个文件</a>，直接执行以下命令即可
 
 ```
 cd /usr/src/
@@ -30,7 +30,36 @@ sh install_nginx.sh
 
 最终输出结果应该是 nginx version: nginx/1.6.2
 
-## 4、问题汇总
+如何验证nginx是否启动成功？
+
+执行 ``curl 127.0.0.1``，然后应该会显示一段 html 文本，如果显示了，就代表 nginx 启动成功。
+
+## 4、打开80端口
+
+启动成功后，我们可以尝试在其他电脑上访问本机的nginx服务。
+
+首先通过 ``ip addr`` 或者 ``ifconfig`` 命令，找到 inet 后面的 ip地址，通常局域网中的地址是例如 ``192.168.0.106``这样的。
+
+然后在其他电脑上，访问这个 ip 地址，理论上是可以打开页面的。
+
+如果一直打不开，但nginx又启动成功，那么就很可能是 服务器对外端口没打开。以 centos7 为例，可以通过以下命令来打开80端口。
+
+```
+sudo firewall-cmd --add-service=http --permanent
+sudo firewall-cmd --add-port=80/tcp --permanent
+sudo firewall-cmd --reload
+```
+
+或者直接下载这个 sh脚本
+
+```
+cd /usr/src/
+wget https://raw.githubusercontent.com/qq20004604/nginx-demo/master/centos7_open_port_80.sh
+sh centos7_open_port_80.sh
+```
+
+
+## 5、问题汇总
 
 1、如果运行错误，比如执行的文件后面多几个字符的，可能是编码问题。
 
