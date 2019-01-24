@@ -99,4 +99,4 @@ MacOS X (10.4) PPC;
 
 解决办法：例如在CentOS 7 需要通过 firewalld 来打开 http 80 端口，才能访问。
 
-参考本项目中的 [centos7打开80端口.sh] 文件
+参考本项目中的 [centos7_open_port_80.sh] 文件
