@@ -30,7 +30,9 @@ http://www.nginx.cn/doc/
 
 <a href='https://github.com/qq20004604/nginx-demo/blob/master/06、一个nginx服务器为多个域名服务.md'>06、一个nginx服务器为多个域名服务</a>
 
-<a href='https://github.com/qq20004604/nginx-demo/blob/master/07、日志'>07、日志</a>
+<a href='https://github.com/qq20004604/nginx-demo/blob/master/07、日志.md'>07、日志</a>
+
+<a href='https://github.com/qq20004604/nginx-demo/blob/master/08、文件列表.md'>08、文件列表</a>
  
 
 ### xx、主进程pid
