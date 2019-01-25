@@ -20,15 +20,17 @@ http://www.nginx.cn/doc/
 
 <a href='https://github.com/qq20004604/nginx-demo/blob/master/01、安装nginx.md'>01、安装nginx</a>
 
-<a href='https://github.com/qq20004604/nginx-demo/blob/master/02~04、目录和命令.md'>02~04、目录和命令</a>
+<a href='https://github.com/qq20004604/nginx-demo/blob/master/02、默认目录.md'>02、默认目录</a>
 
-<a href='https://github.com/qq20004604/nginx-demo/blob/master/05、配置nginx的配置文件.md'>05、配置nginx的配置文件</a>
+<a href='https://github.com/qq20004604/nginx-demo/blob/master/03、nginx常用命令.md'>03、nginx常用命令</a>
 
-<a href='https://github.com/qq20004604/nginx-demo/blob/master/06、一个nginx服务器为多个ip服务.md'>06、一个nginx服务器为多个ip服务</a>
+<a href='https://github.com/qq20004604/nginx-demo/blob/master/04、配置nginx的配置文件.md'>04、配置nginx的配置文件</a>
 
-<a href='https://github.com/qq20004604/nginx-demo/blob/master/07、一个nginx服务器为多个域名服务'>07、一个nginx服务器为多个域名服务</a>
+<a href='https://github.com/qq20004604/nginx-demo/blob/master/05、一个nginx服务器为多个ip服务.md'>05、一个nginx服务器为多个ip服务</a>
 
-<a href='https://github.com/qq20004604/nginx-demo/blob/master/08、日志'>08、日志</a>
+<a href='https://github.com/qq20004604/nginx-demo/blob/master/06、一个nginx服务器为多个域名服务'>06、一个nginx服务器为多个域名服务</a>
+
+<a href='https://github.com/qq20004604/nginx-demo/blob/master/07、日志'>07、日志</a>
  
 
 ### xx、根目录
