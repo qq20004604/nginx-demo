@@ -22,7 +22,7 @@ https://wizardforcel.gitbooks.io/nginx-doc/content/Text/1.3_install.html
 
 http://www.runoob.com/linux/nginx-install-setup.html
 
-Centos平台，可以直接运行本项目里的 ``install_nginx.sh`` 来自动安装
+<b>Centos 7平台，可以直接运行本项目里的 ``install_nginx.sh`` 来自动安装</b>
 
 【2】mac平台：
 
