@@ -28,27 +28,10 @@ http://www.nginx.cn/doc/
 
 <a href='https://github.com/qq20004604/nginx-demo/blob/master/05、一个nginx服务器为多个ip服务.md'>05、一个nginx服务器为多个ip服务</a>
 
-<a href='https://github.com/qq20004604/nginx-demo/blob/master/06、一个nginx服务器为多个域名服务'>06、一个nginx服务器为多个域名服务</a>
+<a href='https://github.com/qq20004604/nginx-demo/blob/master/06、一个nginx服务器为多个域名服务.md'>06、一个nginx服务器为多个域名服务</a>
 
 <a href='https://github.com/qq20004604/nginx-demo/blob/master/07、日志'>07、日志</a>
  
-
-### xx、根目录
-
-在配置 ``nginx.conf`` 文件时，经常要涉及到目录的配置。
-
-在默认配置文件中，路径里写的都是相对路径，这个相对路径，其基础指的就是 nginx 的安装目录。
-
-那么如何确定 nginx 的安装目录呢？
-
-linux下可以使用这个命令：
-
-```
-ps -ef | grep nginx  
-```
-
-mac下不行，不会显示目录，但是更简单，直接在这个目录下找吧 ``/usr/local/Cellar/nginx/``
-
 
 ### xx、主进程pid
 
