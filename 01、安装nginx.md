@@ -89,7 +89,24 @@ Solaris 8 i386; Solaris 9 i386 and sun4u; Solaris 10 i386;
 MacOS X (10.4) PPC;
 ```
 
-【5】问题解决：
+【5】安装 webstorm 的 nginx 插件：
+
+下载链接：
+
+https://plugins.jetbrains.com/plugin/4415-nginx-support
+
+然后打开设置功能（例如mac是在第一列的Preferences），通过 Plugins -> Install plugin from disk ，选择下载的zip文件安装。然后重启IDE。
+
+然后在 Preferences -> Editor -> File Types -> 右侧上方找到 Nginx Config -> 点击下面的加号，添加 nginx.conf 
+
+添加后是在 *.nginx 下面多一个 nginx.conf ，表示就ok了。
+
+这个时候，打开 nginx.conf 文件，原本白色的会自动被染色，说明插件安装成功了。
+
+<b>此方法也适用于pycharm或者idea</b>
+
+
+【6】问题解决：
 
 1、安装了nginx，也可以通过 curl 127.0.0.1 本机打开页面，但是其他机子访问不了，怎么解决？
 
