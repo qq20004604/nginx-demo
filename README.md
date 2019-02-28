@@ -34,6 +34,10 @@ http://www.nginx.cn/doc/
 
 <a href='https://github.com/qq20004604/nginx-demo/blob/master/08、文件列表.md'>08、文件列表</a>
  
+<a href='https://github.com/qq20004604/nginx-demo/blob/master/09、负载均衡.md'>09、负载均衡</a>
+ 
+<a href='https://github.com/qq20004604/nginx-demo/blob/master/10、Rewrite.md'>10、Rewrite</a>
+ 
 
 ### xx、主进程pid
 
