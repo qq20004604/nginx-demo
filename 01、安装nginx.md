@@ -2,9 +2,9 @@
 
 ---
 
-### 01、安装
+## 01、安装
 
-【1】ububtu平台、centos平台，参考：
+### 1、ububtu平台、centos平台，参考：
 
 https://wizardforcel.gitbooks.io/nginx-doc/content/Text/1.3_install.html
 
@@ -24,7 +24,14 @@ http://www.runoob.com/linux/nginx-install-setup.html
 
 <b>Centos 7平台，可以直接运行本项目里的 ``install_nginx.sh`` 来自动安装</b>
 
-【2】mac平台：
+脚本如下：
+
+```
+wget https://raw.githubusercontent.com/qq20004604/nginx-demo/master/install_nginx.sh
+sudo sh install_nginx.sh
+```
+
+###　2、mac平台：
 
 参考：https://www.jianshu.com/p/026d67cc6cb1
 
@@ -63,7 +70,7 @@ brew services start nginx
 
 等可以继续输入命令的时候，打开：<a href='http://localhost:8080/'>http://localhost:8080/</a> 有正常显示，说明就ok了。
 
-【3】其他平台：
+### 3、其他平台：
 
 参考：http://www.nginx.cn/doc/
 
@@ -76,7 +83,7 @@ brew services start nginx
 <li><a href="http://www.nginx.cn/231.html" target="_blank" title="php-fpm安装配置">nginx php-fpm安装配置</a></li>
 </ul>
 
-【4】windows平台：
+### 4、windows平台：
 
 不支持，就是这样，装个虚拟机吧~
 
@@ -89,7 +96,7 @@ Solaris 8 i386; Solaris 9 i386 and sun4u; Solaris 10 i386;
 MacOS X (10.4) PPC;
 ```
 
-【5】安装 webstorm 的 nginx 插件：
+### 5、安装 webstorm 的 nginx 插件：
 
 下载链接：
 
@@ -106,7 +113,7 @@ https://plugins.jetbrains.com/plugin/4415-nginx-support
 <b>此方法也适用于pycharm或者idea</b>
 
 
-【6】问题解决：
+### 6、问题解决：
 
 1、安装了nginx，也可以通过 curl 127.0.0.1 本机打开页面，但是其他机子访问不了，怎么解决？
 
