@@ -20,3 +20,4 @@ cd nginx-1.6.2
 make
 make install
 /usr/local/nginx/sbin/nginx -v
+ln -s /usr/local/nginx/sbin/nginx /usr/bin/
